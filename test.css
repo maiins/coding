@@ -1,0 +1,39 @@
+@font-face {
+font-family: "IranNastaliq";
+src:url("fonts/IranNastaliq.woff") format("woff");
+}
+body{
+background-color: black;
+margin:5px;
+}
+.text{
+font-family: "IranNastaliq";
+font-size: 60px;
+color:white;
+direction: rtl;
+background: linear-gradient(to left ,#e600ff,#ff66ff,#6699ff,#0099ff);
+-webkit-text-fill-color:transparent;
+-webkit-background-clip:text;
+text-align: center;
+margin-left: auto;
+margin-top: 5%;
+}
+.photo{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%,0%);
+}
+.text2{
+  font-family: cursive;
+  font-size: 30px;
+  color:white;
+  direction: rtl;
+  background: linear-gradient(to left ,#e600ff,#ff66ff,#6699ff,#0099ff);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+  text-align: center;
+  line-height: 50px;
+  margin-left: auto;
+margin-top: 0%;
+}
